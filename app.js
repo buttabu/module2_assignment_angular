@@ -13,10 +13,10 @@ function ToBuyController(ShoppingListCheckOffService) {
   var toBuyList = this;
 
   ShoppingListCheckOffService.addItem('Coffee','2');
-  ShoppingListCheckOffService.addItem('Eggs','4');
-  ShoppingListCheckOffService.addItem('Tea','6');
-  ShoppingListCheckOffService.addItem('Bread','17');
-  ShoppingListCheckOffService.addItem('Cookies','9');
+  ShoppingListCheckOffService.addItem('Eggs','8');
+  ShoppingListCheckOffService.addItem('Cookies','15');
+  ShoppingListCheckOffService.addItem('Brown Bread','7');
+  ShoppingListCheckOffService.addItem('Water','5');
 
   toBuyList.items = ShoppingListCheckOffService.getToBuytItems();
 
