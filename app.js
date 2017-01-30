@@ -12,11 +12,11 @@ ToBuyController.$inject = ['ShoppingListCheckOffService'];
 function ToBuyController(ShoppingListCheckOffService) {
   var toBuyList = this;
 
-  ShoppingListCheckOffService.addItem('Chocolate','23');
-  ShoppingListCheckOffService.addItem('Milk','4');
-  ShoppingListCheckOffService.addItem('Chips','56');
-  ShoppingListCheckOffService.addItem('Bread','7');
-  ShoppingListCheckOffService.addItem('Orange Juice','29');
+  ShoppingListCheckOffService.addItem('Coffee','2');
+  ShoppingListCheckOffService.addItem('Eggs','4');
+  ShoppingListCheckOffService.addItem('Tea','6');
+  ShoppingListCheckOffService.addItem('Bread','17');
+  ShoppingListCheckOffService.addItem('Cookies','9');
 
   toBuyList.items = ShoppingListCheckOffService.getToBuytItems();
 
